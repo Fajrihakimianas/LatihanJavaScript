@@ -7,8 +7,8 @@ function alarm(jamAlert){
       var dtNow = Now.split(':');
       console.log(dtNow);
 
-      setAlarm = (parseInt(jamAlert[0]) - parseInt(dtNow[0])) + (parseInt(jamAlert[1]) - parseInt(dtNow[1])) % 60;
+      setAlarm = (parseInt(jamAlert[0]) - parseInt(dtNow[0]))*60 + (parseInt(jamAlert[1]) - parseInt(dtNow[1])) % 60;
 
-      console.log(`alarm set for ${setAlarm} minutes from now`);
+      console.log(`alarm set for ${setAlarm} from now`);
 }
-alarm('13:22');
+alarm('14:26');
