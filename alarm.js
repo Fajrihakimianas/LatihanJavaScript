@@ -14,4 +14,3 @@ function alarm(jamAlert){
 
       console.log(`alarm set for ${setHours} hours and ${setMinutes} minutes from now`);
 }
-alarm('14:31');
