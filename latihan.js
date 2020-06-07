@@ -7,4 +7,4 @@ setInterval (function() {
       }
       console.log(text[i]);
       i++;
-}, 1000)
+}, 2000)
