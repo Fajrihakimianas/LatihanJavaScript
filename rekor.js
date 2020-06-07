@@ -1,4 +1,3 @@
-
 function Rekor(nilai) {
       tertinggi = 0;
       terendah = 0;
